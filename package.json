@@ -8,9 +8,7 @@
     "docs:deploy": "bash ./deploy-docs.sh"
   },
   "devDependencies": {
-    "vue-cli": "^2.8.1"
-  },
-  "dependencies": {
+    "vue-cli": "^2.8.1",
     "jstransformer-handlebars": "^1.1.0"
   }
 }
