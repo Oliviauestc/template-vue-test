@@ -1,30 +1,24 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    {{#router}}
-    <router-view/>
-    {{else}}
-    <HelloWorld/>
-    {{/router}}
+    <img alt="Vue logo" src="./assets/logo.png">
+    <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
-{{#unless router}}
-import HelloWorld from './components/HelloWorld'
+import HelloWorld from './components/HelloWorld.vue'
 
-{{/unless}}
 export default {
-  name: 'App'{{#router}}{{else}},
+  name: 'App',
   components: {
     HelloWorld
-  }{{/router}}
+  }
 }
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
