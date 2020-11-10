@@ -1,13 +1,12 @@
 {
-  "name": "hello",
+  "name": "",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "",
   "author": "",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "start": "npm run serve",
-    "lint": "vue-cli-service lint",
     "build": "vue-cli-service build"
   },
   "dependencies": {
@@ -16,29 +15,11 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
-    "@vue/cli-plugin-eslint": "~4.5.0",
-    "babel-eslint": "^7.2.3",
-    "eslint": "^4.15.0",
-    "eslint-plugin-vue": "^4.0.0",
     "vue-template-compiler": "^2.6.11",
     "autoprefixer": "^7.1.2",
     "postcss-import": "^11.0.0",
     "postcss-loader": "^2.0.8",
     "postcss-url": "^7.2.1"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "parser": "babel-eslint"
-    },
-    "rules": {}
   },
   "engines": {
     "node": ">= 6.0.0",
